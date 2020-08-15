@@ -1,0 +1,73 @@
+body {
+  background: rgba(0, 0, 0, 0.644);
+  color: white;
+  background-image: url('./images/warzone-background.jpg');
+  background-size: 100% 100vh;
+}
+
+.main-wrapper {
+  text-align: center;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0px 0px;
+}
+
+.main-h1 {
+  font-size: 14mm;
+  margin-top: 10px;
+}
+
+.drop-input {
+  height: 20px;
+  width: 100%;
+  font-size: 40px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+button {
+  font-size: 25px;
+}
+
+#my-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding:10px;
+}
+
+#my-list p {
+  padding: 10px;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+}
+
+.button-wrapper{
+  margin: 10px;
+}
+
+#random-btn {
+  margin: 10px;
+}
+
+.result-section {
+  height: 40%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+#result {
+  color: rgb(168, 0, 0);
+}

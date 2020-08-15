@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Warzone Random Drop Generator</title>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <div class="form-input">
+        <h1 class="main-h1">Drop Locations</h1>
+        <div id="my-list"></div>
+        <form id="submit-section">
+          <input
+            type="text"
+            id="drop-input"
+            style="font-size: 20px;"
+            placeholder="Enter New Drop Location..."
+            onfocus="this.value = ''"
+          />
+          <input
+            type="submit"
+            id="add-btn"
+            style="font-size: 20px;"
+            value="Add"
+            onclick="addDrop()"
+          />
+        </form>
+        <div class="button-wrapper">
+          <button type="submit" id="random-btn" onclick="dropGen()">
+            Random Drop Location
+          </button>
+          <button type="submit" id="random-btn" onclick="hotDropGen()">
+            Random HOT Drop Location
+          </button>
+          <button type="submit" id="random-btn" onclick="omar()">
+            Omar Press Here
+          </button>
+        </div>
+      </div>
+      <div class="result-section">
+        <h1 id="result"></h1>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
